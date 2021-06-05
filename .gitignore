@@ -1,5 +1,6 @@
 /public/uploads
 /config/secrets/dev/dev.decrypt.private.php
+/config/secrets/test/test.decrypt.private.php
 
 ###> symfony/framework-bundle ###
 /.env.local
@@ -10,3 +11,13 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
