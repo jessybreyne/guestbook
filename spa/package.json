@@ -9,6 +9,7 @@
     "@symfony/webpack-encore": "^1.4.0",
     "babel-preset-preact": "^2.0.0",
     "bootstrap": "^5.0.1",
-    "html-webpack-plugin": "^5.3.1"
+    "html-webpack-plugin": "^5.3.1",
+    "preact": "^10.5.13"
   }
 }
